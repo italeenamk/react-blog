@@ -22,6 +22,15 @@ const Sidebar = () => {
                       <li className="sidebar-list-item">Cinema</li>
                   </ul>
               </div>
+              <div className="sidebar-items">
+                  <span className="sidebar-title">FOLLOWS US</span>
+                  <div className="sidebar-social">
+                      <i className="sidebar-icon fa-brands fa-square-facebook"></i>
+                      <i className="sidebar-icon fa-brands fa-square-twitter"></i>
+                      <i className="sidebar-icon fa-brands fa-square-pinterest"></i>
+                      <i className="sidebar-icon fa-brands fa-square-instagram"></i>
+                  </div>
+              </div>
           </div>
       </>
   )
