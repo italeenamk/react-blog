@@ -7,7 +7,7 @@ const Sidebar = () => {
           <div className="sidebar">
               <div className="sidebar-items">
                   <span className="sidebar-title">ABOUT ME</span>
-                  <img src="https://cdn.contrastly.com/wp-content/uploads/storytelling-photography-3.jpg" alt=""/>
+                  <img src="https://images.squarespace-cdn.com/content/v1/62983f895312590f364452cc/7ba22126-7684-438a-a44e-5b4d8ff68865/LYD07977-Edit.jpg?format=500w" alt=""/>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis eius error
                       est quae quas, quis sint soluta! Aliquid, maiores, maxime?</p>
               </div>
