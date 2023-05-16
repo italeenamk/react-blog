@@ -28,9 +28,31 @@
 }
 .sidebar-items > img {
     margin-top: 15px;
+    width: 47%;
 }
-.sidebar-items > p {}
-.sidebar-list {}
-.sidebar-list-item {}
-.sidebar-social {}
-.sidebar-icon {}
+.sidebar-items > p {
+    padding: 30px;
+}
+.sidebar-list {
+    list-style: none;
+    margin-bottom: 30px;
+    padding-left: 49px;
+}
+.sidebar-list-item {
+    display: inline-block;
+    width: 50%;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.sidebar-social {
+    margin-top: 15px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sidebar-icon {
+    font-size: 16px;
+    margin-left: 10px;
+    cursor: pointer;
+}
