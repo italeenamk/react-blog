@@ -16,8 +16,39 @@
     text-align: center;
     margin: 10px;
 }
-.single-post-edit {}
-.single-post-icon {}
-.single-post-info {}
+.single-post-edit {
+    float: right;
+    font-size: 16px;
+}
+.single-post-icon {
+    margin-left: 10px;
+    cursor: pointer;
+    margin-top: 8px;
+}
+.single-post-icon:first-child {
+    color: teal;
+}
+.single-post-icon:last-child {
+    color: tomato;
+}
+.single-post-info {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    color: #b39656;
+    font-family: 'Varela Round', sans-serif;
+}
 .single-post-author {}
 .single-post-date {}
+.single-post-description {
+    color: #666;
+    font-size: 18px;
+    font-family: auto;
+    line-height: 27px;
+}
+.single-post-description::first-letter {
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: 600;
+}
