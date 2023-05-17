@@ -5,6 +5,7 @@
     background: #fdfbfb;
     display: flex;
     flex-direction: column;
+    margin-right: 17px;
     border-radius: 10px;
     align-items: center;
 }
