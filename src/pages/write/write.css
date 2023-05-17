@@ -1,8 +1,60 @@
-.write {}
-.write-form {}
-.write-form-group {}
+.write {
+    padding-top: 50px;
+}
+.write-img {
+    margin-left: 150px;
+    width: 70vw;
+    height: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.write-form {
+    position: relative;
+    margin-top: 30px;
+}
+.write-form-group {
+    margin-left: 150px;
+    display: flex;
+    align-items: center;
+}
 .file-input {}
-.write-icon {}
-.write-input {}
-.write-text {}
-.write-submit {}
+.write-icon {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid;
+    font-size: 20px;
+    color: rgb(121, 118, 118);
+    margin-top: 12px;
+    padding: 13px;
+    cursor: pointer;
+}
+.write-input {
+    font-size: 27px;
+    border: none;
+    padding: 20px;
+    width: 70vw;
+}
+.write-input:focus {
+    outline: none;
+}
+.write-text {
+    font-size: 20px;
+    height: 100vh;
+    letter-spacing: 2px;
+}
+.write-submit {
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    color: white;
+    background: teal;
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+}

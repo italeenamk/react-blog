@@ -5,6 +5,7 @@ const Write = () => {
   return(
       <>
           <div className="write">
+              <img src="https://images2.boardingschoolreview.com/photo/1122x864/1000/593/img-academy-oqxuxY.jpg" alt="" className="write-img"/>
               <form className="write-form">
                   <div className="write-form-group">
                       <label htmlFor="file-input">
