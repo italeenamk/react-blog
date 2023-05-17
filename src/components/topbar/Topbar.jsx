@@ -1,6 +1,6 @@
 import './topbar.css';
 
-const Topbar = () => {
+const Topbar = ({selectTab}) => {
   return(
       <>
           <div className="top">
@@ -12,11 +12,12 @@ const Topbar = () => {
               </div>
               <div className="top-center">
                   <ul className="top-list">
-                      <li className="top-list-item">HOME</li>
+                      <li className="top-list-item" onClick={(e)=>selectTab('Home')}>HOME</li>
                       <li className="top-list-item">ABOUT</li>
                       <li className="top-list-item">CONTACT</li>
-                      <li className="top-list-item">WRITE</li>
-                      <li className="top-list-item">LOGOUT</li>
+                      <li className="top-list-item" onClick={(e)=>selectTab('Write')}>WRITE</li>
+                      <li className="top-list-item" onClick={(e)=>selectTab('Login')}>LOGOUT</li>
+                      <li className="top-list-item" onClick={(e)=>selectTab('Register')}>REGISTER</li>
                   </ul>
               </div>
               <div className="top-right">
