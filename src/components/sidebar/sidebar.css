@@ -30,6 +30,7 @@
 .sidebar-items > img {
     margin-top: 15px;
     width: 47%;
+    border-radius: 2px;
 }
 .sidebar-items > p {
     padding: 30px;
