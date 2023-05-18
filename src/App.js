@@ -24,8 +24,8 @@ function App() {
 
           {currentTab === "Home" && <Home/> }
           {currentTab === "Write" && <Write/> }
-          {currentTab === "Login" && <Login/> }
-          {currentTab === "Register" && <Registor/> }
+          {currentTab === "Register" && <Registor selectTab={selectTab}/> }
+          {currentTab === "Login" && <Login selectTab={selectTab}/> }
       </>
   );
 }

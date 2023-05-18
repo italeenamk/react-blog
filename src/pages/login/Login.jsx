@@ -1,7 +1,7 @@
 import './login.css';
 
 
-const Login = () => {
+const Login = ({selectTab}) => {
 
   return(
       <>
@@ -12,9 +12,9 @@ const Login = () => {
                   <input className="loginInput" type="text" placeholder="Enter your email..." />
                   <label>Password</label>
                   <input className="loginInput" type="password" placeholder="Enter your password..." />
-                  <button className="loginButton">Login</button>
+                  <button className="loginButton" onClick={(e)=>selectTab('Home')}>Login</button>
               </form>
-              <button className="loginRegisterButton">Register</button>
+              <button className="loginRegisterButton"  onClick={(e)=>selectTab('Register')}>Register</button>
           </div>
       </>
   )
