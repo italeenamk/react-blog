@@ -11,7 +11,7 @@ import Registor from "./pages/registor/Registor";
 
 function App() {
 
-    const [currentTab, setCurrentTab] = useState('Home');
+    const [currentTab, setCurrentTab] = useState('Login');
 
     const selectTab=(name)=>{
         setCurrentTab(name);
