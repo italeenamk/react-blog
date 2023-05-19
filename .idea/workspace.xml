@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28085489-c3af-4785-b8f4-b089711ab5b5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/api/models/Category.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/models/Post.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/models/User.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/routes/auth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/routes/categories.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/routes/posts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/routes/users.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/models/Category.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/models/Category.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/models/Post.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/models/Post.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/models/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/models/User.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/routes/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/routes/auth.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +67,7 @@
       <updated>1684417549137</updated>
       <workItem from="1684417552445" duration="971000" />
       <workItem from="1684428455552" duration="4100000" />
-      <workItem from="1684494451295" duration="1531000" />
+      <workItem from="1684494451295" duration="3330000" />
     </task>
     <servers />
   </component>
