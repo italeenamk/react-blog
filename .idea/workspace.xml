@@ -5,12 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28085489-c3af-4785-b8f4-b089711ab5b5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/api/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/models/Category.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/models/Post.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/models/User.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/routes/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/routes/categories.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/routes/posts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/routes/users.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/api/node_modules/.package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/api/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/api/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,21 +30,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "javascript.nodejs.core.library.configured.version": "16.18.0",
-    "javascript.nodejs.core.library.typings.version": "16.18.0",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;16.18.0&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;16.18.0&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\aleena-folder\work-floder\gits_projects\react-blog\api" />
@@ -67,7 +69,8 @@
       <option name="presentableId" value="Default" />
       <updated>1684417549137</updated>
       <workItem from="1684417552445" duration="971000" />
-      <workItem from="1684428455552" duration="3945000" />
+      <workItem from="1684428455552" duration="4100000" />
+      <workItem from="1684494451295" duration="1531000" />
     </task>
     <servers />
   </component>
