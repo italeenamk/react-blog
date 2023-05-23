@@ -4,8 +4,10 @@ const dotenv = require("dotenv");
 const mongoose = require("mongoose");
 const authRoute = require("./routes/auth");
 
+
 dotenv.config();
 app.use(express.json());
+
 
 mongoose
     .connect(process.env.MONG0_URL, {
