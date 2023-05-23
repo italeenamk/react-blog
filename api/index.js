@@ -11,7 +11,7 @@ mongoose
     .connect(process.env.MONG0_URL, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
-    useCreateIndex: true,
+    // useCreateIndex: true,
 })
     .then(console.log("connected"))
     .catch((err)=> console.log(err));
