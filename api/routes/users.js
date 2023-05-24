@@ -44,7 +44,7 @@ router.delete("/:id", async (req, res)=>{
             res.status(500).json(err);
         }
     } else{
-        res.status(401).json("You can update only your account!");
+        res.status(401).json("You can delete only your account!");
     }
 });
 
