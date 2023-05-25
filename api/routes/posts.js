@@ -4,26 +4,13 @@ const Post = require("../models/post");
 const bcrypt = require("bcrypt");
 
 // create post
-router.put("/:id", async (req, res)=>{
-    if(req.body.userId === req.params.id){
-        if (req.body.password) {
-            const salt = await bcrypt.genSalt(10);
-            req.body.password = await bcrypt.hash(req.body.password, salt);
-        }
+router.post("/", async (req, res)=>{
         try{
-            const updatedUser = await User.findByIdAndUpdate(req.params.id, {
-                    $set: req.body,
-                },
-                { new:true }
-            );
-            res.status(200).json(updatedUser);
+            const savedPost = newPost.save();
+            res.status(200).json(savedPost);
         } catch (err){
-            console.log(err);
             res.status(500).json(err);
         }
-    } else{
-        res.status(401).json("You can update only your account!");
-    }
 });
 
 // update post
