@@ -6,12 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="28085489-c3af-4785-b8f4-b089711ab5b5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/api/node_modules/.package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/api/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/api/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/routes/categories.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/routes/categories.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/routes/posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/routes/posts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/.env" beforeDir="false" afterPath="$PROJECT_DIR$/api/.env" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +31,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;16.18.0&quot;,
     &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;16.18.0&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/aleena-folder/work-floder/my-new-react-project/phone-app&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -74,7 +70,10 @@
       <workItem from="1684855447348" duration="4394000" />
       <workItem from="1684924811849" duration="1076000" />
       <workItem from="1684936250957" duration="4584000" />
-      <workItem from="1685012753803" duration="13547000" />
+      <workItem from="1685012753803" duration="13981000" />
+      <workItem from="1685088003750" duration="3483000" />
+      <workItem from="1685166925466" duration="898000" />
+      <workItem from="1685176881997" duration="85000" />
     </task>
     <servers />
   </component>
