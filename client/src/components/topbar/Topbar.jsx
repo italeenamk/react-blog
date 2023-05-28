@@ -20,7 +20,7 @@ const Topbar = ({selectTab}) => {
                   </ul>
               </div>
               <div className="top-right">
-                  <img src="https://assets.entrepreneur.com/content/3x2/2000/20150406145944-dos-donts-taking-perfect-linkedin-profile-picture-selfie-mobile-camera-2.jpeg?crop=1:1" alt="" className="top-img"/>
+                  <img onClick={(e)=>selectTab('Settings')} src="https://assets.entrepreneur.com/content/3x2/2000/20150406145944-dos-donts-taking-perfect-linkedin-profile-picture-selfie-mobile-camera-2.jpeg?crop=1:1" alt="" className="top-img"/>
                   <i className="top-search-icon fa-solid fa-magnifying-glass"></i>
               </div>
           </div>
