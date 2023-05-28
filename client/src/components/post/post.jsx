@@ -1,36 +1,27 @@
 import './post.css';
 
 
-const Post = () => {
+
+const Post = ({ post }) => {
   return(
       <>
           <div className="post">
-              <img className="post-img" src="https://images.unsplash.com/photo-1508919801845-fc2ae1bc2a28?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aW1nfGVufDB8fDB8fA%3D%3D&w=1000&q=80" alt=""/>
+              {post.photo && (
+                  <img className="post-img" src={post.photo} alt=""/>
+              )}
               <div className="post-info">
                   <div className="post-categories">
-                      <span className="post-categorie">Music</span>
-                      <span className="post-categorie">Life</span>
+                      {post.categories.map((c) => (
+                          <span className="post-categorie">{c.name}</span>
+                      ))}
                   </div>
-                  <span className="post-title">Lorem ipsum dolor sit amet.</span>
+                  <p onClick={(e)=>selectTab('Home')}>gggg</p>
+                  <span className="post-title">{post.title}</span>
                   <hr/>
-                  <span className="post-date">1 hour ago</span>
+                  <span className="post-date">{new Date (post.createdAt).toDateString()}</span>
+                  <p>helo</p>
               </div>
-              <p className="post-description">Lorem ipsum dolor sit amet, consectetur
-                  adipisicing elit. Accusantium architecto assumenda, at commodi cumque
-                  debitis deleniti eaque magni molestiae odio optio perferendis praesentium
-                  quam quibusdam quidem sit unde ut voluptate?
-                  Lorem ipsum dolor sit amet, consectetur
-                  adipisicing elit. Accusantium architecto assumenda, at commodi cumque
-                  debitis deleniti eaque magni molestiae odio optio perferendis praesentium
-                  quam quibusdam quidem sit unde ut voluptate?
-                  Lorem ipsum dolor sit amet, consectetur
-                  adipisicing elit. Accusantium architecto assumenda, at commodi cumque
-                  debitis deleniti eaque magni molestiae odio optio perferendis praesentium
-                  quam quibusdam quidem sit unde ut voluptate?
-                  Lorem ipsum dolor sit amet, consectetur
-                  adipisicing elit. Accusantium architecto assumenda, at commodi cumque
-                  debitis deleniti eaque magni molestiae odio optio perferendis praesentium
-                  quam quibusdam quidem sit unde ut voluptate?
+              <p className="post-description">{post.description}
               </p>
           </div>
       </>

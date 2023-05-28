@@ -7,11 +7,12 @@ const userRoute = require("./routes/users");
 const postRoute = require("./routes/posts");
 const categoryRoute = require("./routes/categories");
 const multer = require("multer");
+var cors = require('cors');
 
 
 dotenv.config();
 app.use(express.json());
-
+app.use(cors());
 
 mongoose
     .connect(process.env.MONG0_URL, {

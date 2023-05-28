@@ -1,6 +1,6 @@
 import './topbar.css';
 
-const Topbar = ({selectTab}) => {
+const Topbar = () => {
   return(
       <>
           <div className="top">
@@ -12,15 +12,15 @@ const Topbar = ({selectTab}) => {
               </div>
               <div className="top-center">
                   <ul className="top-list">
-                      <li className="top-list-item" onClick={(e)=>selectTab('Home')}>HOME</li>
+                      <li className="top-list-item">HOME</li>
                       <li className="top-list-item">ABOUT</li>
                       <li className="top-list-item">CONTACT</li>
-                      <li className="top-list-item" onClick={(e)=>selectTab('Write')}>WRITE</li>
-                      <li className="top-list-item" onClick={(e)=>selectTab('Login')}>LOGOUT</li>
+                      <li className="top-list-item" >WRITE</li>
+                      <li className="top-list-item" >LOGOUT</li>
                   </ul>
               </div>
               <div className="top-right">
-                  <img onClick={(e)=>selectTab('Settings')} src="https://assets.entrepreneur.com/content/3x2/2000/20150406145944-dos-donts-taking-perfect-linkedin-profile-picture-selfie-mobile-camera-2.jpeg?crop=1:1" alt="" className="top-img"/>
+                  <img src="https://assets.entrepreneur.com/content/3x2/2000/20150406145944-dos-donts-taking-perfect-linkedin-profile-picture-selfie-mobile-camera-2.jpeg?crop=1:1" alt="" className="top-img"/>
                   <i className="top-search-icon fa-solid fa-magnifying-glass"></i>
               </div>
           </div>

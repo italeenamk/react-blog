@@ -1,7 +1,7 @@
 import './registor.css';
 
 
-const Registor = ({selectTab}) => {
+const Registor = () => {
   return(
       <>
           <div className="register">
@@ -15,7 +15,7 @@ const Registor = ({selectTab}) => {
                   <input className="registerInput" type="password" placeholder="Enter your password..." />
                   <button className="registerButton">Register</button>
               </form>
-              <button className="registerLoginButton" onClick={(e)=>selectTab('Login')}>Login</button>
+              <button className="registerLoginButton">Login</button>
           </div>
       </>
   )

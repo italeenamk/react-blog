@@ -2,7 +2,7 @@ import './settings.css';
 import Sidebar from "../../components/sidebar/sidebar";
 
 
-const Settings = ({selectTab}) => {
+const Settings = () => {
   return(
       <>
           <div className="settings">
@@ -34,7 +34,7 @@ const Settings = ({selectTab}) => {
                       <input type="email" placeholder="safak@gmail.com" name="email" />
                       <label>Password</label>
                       <input type="password" placeholder="Password" name="password" />
-                      <button className="settingsSubmitButton" type="submit" onClick={(e)=>selectTab('Home')}>
+                      <button className="settingsSubmitButton" type="submit">
                           Update
                       </button>
                   </form>
