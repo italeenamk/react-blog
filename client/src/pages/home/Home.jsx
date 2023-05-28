@@ -10,8 +10,10 @@ const Home = () => {
 
     useEffect(()=>{
         const fetchPosts = async () => {
-            axios.get("/")
+            const res = await axios.get("/posts")
+            console.log(res)
         }
+        fetchPosts();
     },[])
   return(
       <>
