@@ -6,6 +6,13 @@ import {useEffect, useState} from "react";
 import axios from "axios";
 
 const Home = () => {
+    const [posts, serPosts] = useState([]);
+
+    useEffect(()=>{
+        const fetchPosts = async () => {
+            axios.get("/")
+        }
+    },[])
   return(
       <>
           <Header/>
