@@ -6,20 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="28085489-c3af-4785-b8f4-b089711ab5b5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/api/node_modules/.package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/api/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/api/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/post/post.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/post/post.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/posts/posts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/posts/posts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/topbar/Topbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/topbar/Topbar.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/pages/home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/home/Home.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/login/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/login/Login.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/registor/Registor.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/registor/Registor.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/settings/Settings.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/settings/Settings.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,22 +29,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;16.18.0&quot;,
-    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;16.18.0&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/aleena-folder/work-floder/gits_projects/react-blog&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "javascript.nodejs.core.library.configured.version": "16.18.0",
+    "javascript.nodejs.core.library.typings.version": "16.18.0",
+    "last_opened_file_path": "D:/aleena-folder/work-floder/gits_projects/react-blog",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\aleena-folder\work-floder\gits_projects\react-blog\api" />
@@ -91,6 +83,12 @@
       <workItem from="1685196149870" duration="630000" />
       <workItem from="1685200611447" duration="669000" />
       <workItem from="1685256365557" duration="14388000" />
+      <workItem from="1685622356659" duration="3889000" />
+      <workItem from="1685878106834" duration="34000" />
+      <workItem from="1686316856687" duration="1284000" />
+      <workItem from="1686394430269" duration="438000" />
+      <workItem from="1686404077603" duration="590000" />
+      <workItem from="1686500759638" duration="2057000" />
     </task>
     <servers />
   </component>

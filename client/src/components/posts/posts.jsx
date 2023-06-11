@@ -3,7 +3,6 @@ import Post from "../post/post";
 
 
 const Posts = ({ posts }) => {
-
   return(
       <>
           <div className="posts">

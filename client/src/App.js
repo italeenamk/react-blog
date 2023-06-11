@@ -11,12 +11,6 @@ import Settings from "./pages/settings/Settings";
 
 function App() {
 
-    // const [currentTab, setCurrentTab] = useState('Login');
-    //
-    // const selectTab=(name)=>{
-    //     setCurrentTab(name);
-    // }
-
     const currentUser = true;
   return (
       <>
@@ -44,6 +38,7 @@ function App() {
           </Router>
 
           {/*<Topbar selectTab={selectTab}/>*/}
+
 
           {/*{currentTab === "Home" && <Home/> }*/}
           {/*{currentTab === "Write" && <Write/> }*/}
