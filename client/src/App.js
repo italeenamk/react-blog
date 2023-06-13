@@ -8,7 +8,6 @@ import Single from "./pages/single/Single";
 import Write from "./pages/write/Write";
 import Settings from "./pages/settings/Settings";
 import Post from "./components/post/post";
-import Posts from "./components/posts/posts";
 
 
 function App() {
@@ -21,8 +20,11 @@ function App() {
                   <Routes>
                       <Route exact path="/" element={<Home/>}/>
                       <Route exact path="/login" element={<Login/>}/>
-                      <Route exact path="/Post" element={<Posts/>}/>
+                      <Route exact path="/register" element={<Registor/>}/>
+                      <Route exact path="/post" element={<Post/>}/>
                       <Route path="/write" element={<Write/>}/>
+                      <Route path="/settings" element={<Settings/>}/>
+                      <Route path="/single" element={<Single/>}/>
                   </Routes>
           </Router>
           {/*<Router>*/}
