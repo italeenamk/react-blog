@@ -7,6 +7,8 @@ import Registor from "./pages/registor/Registor";
 import Single from "./pages/single/Single";
 import Write from "./pages/write/Write";
 import Settings from "./pages/settings/Settings";
+import Post from "./components/post/post";
+import Posts from "./components/posts/posts";
 
 
 function App() {
@@ -15,14 +17,13 @@ function App() {
   return (
       <>
           <Router>
-              <Layout>
+              <Topbar/>
                   <Routes>
                       <Route exact path="/" element={<Home/>}/>
                       <Route exact path="/login" element={<Login/>}/>
-                      <Route exact path="/recovery-password" element={<RecoveryPassword/>}/>
-                      <Route path="*" element={<NotFound/>}/>
+                      <Route exact path="/Post" element={<Posts/>}/>
+                      <Route path="/write" element={<Write/>}/>
                   </Routes>
-              </Layout>
           </Router>
           {/*<Router>*/}
           {/*    <Topbar />*/}
