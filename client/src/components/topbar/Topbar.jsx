@@ -13,10 +13,10 @@ const Topbar = () => {
               </div>
               <div className="top-center">
                   <ul className="top-list">
-                      <li className="top-list-item"><Link to="/">HOME</Link></li>
+                      <li className="top-list-item"><Link style={{textDecoration: "none", color:"inherit"}} to="/">HOME</Link></li>
                       <li className="top-list-item">ABOUT</li>
                       <li className="top-list-item">CONTACT</li>
-                      <li className="top-list-item" ><Link to="/write">WRITE</Link></li>
+                      <li className="top-list-item" ><Link style={{textDecoration: "none", color:"inherit"}} to="/write">WRITE</Link></li>
                       <li className="top-list-item" >LOGOUT</li>
                   </ul>
               </div>

@@ -43,7 +43,12 @@
     font-size: 18px;
     margin-right: 20px;
     font-weight: 300;
+    text-decoration: none;
+    color: black;
     cursor: pointer;
+}
+link {
+    text-decoration: none !important;
 }
 .top-search-icon {
     color: #666666;
