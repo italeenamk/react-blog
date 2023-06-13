@@ -17,12 +17,14 @@ const Topbar = () => {
                       <li className="top-list-item">ABOUT</li>
                       <li className="top-list-item">CONTACT</li>
                       <li className="top-list-item" ><Link style={{textDecoration: "none", color:"inherit"}} to="/write">WRITE</Link></li>
-                      <li className="top-list-item" >LOGOUT</li>
+                      <li className="top-list-item" ><Link style={{textDecoration: "none", color:"inherit"}} to="/login">LOGOUT</Link></li>
                   </ul>
               </div>
               <div className="top-right">
-                  <img src="https://assets.entrepreneur.com/content/3x2/2000/20150406145944-dos-donts-taking-perfect-linkedin-profile-picture-selfie-mobile-camera-2.jpeg?crop=1:1" alt="" className="top-img"/>
-                  <i className="top-search-icon fa-solid fa-magnifying-glass"></i>
+                  <Link style={{textDecoration: "none", color:"inherit"}} to="/settings">
+                      <img src="https://assets.entrepreneur.com/content/3x2/2000/20150406145944-dos-donts-taking-perfect-linkedin-profile-picture-selfie-mobile-camera-2.jpeg?crop=1:1" alt="" className="top-img"/>
+                  </Link>
+                      <i className="top-search-icon fa-solid fa-magnifying-glass"></i>
               </div>
           </div>
       </>
