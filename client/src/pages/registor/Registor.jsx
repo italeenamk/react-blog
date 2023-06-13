@@ -1,4 +1,5 @@
 import './registor.css';
+import {Link} from "react-router-dom";
 
 
 const Registor = () => {
@@ -15,7 +16,7 @@ const Registor = () => {
                   <input className="registerInput" type="password" placeholder="Enter your password..." />
                   <button className="registerButton">Register</button>
               </form>
-              <button className="registerLoginButton">Login</button>
+              <button className="registerLoginButton"><Link style={{textDecoration: "none", color:"inherit"}} to="/login">Login</Link></button>
           </div>
       </>
   )
