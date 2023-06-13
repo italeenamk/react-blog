@@ -13,7 +13,7 @@ const Topbar = () => {
               </div>
               <div className="top-center">
                   <ul className="top-list">
-                      <li className="top-list-item">HOME</li>
+                      <li className="top-list-item"><Link to="/">HOME</Link></li>
                       <li className="top-list-item">ABOUT</li>
                       <li className="top-list-item">CONTACT</li>
                       <li className="top-list-item" ><Link to="/write">WRITE</Link></li>
