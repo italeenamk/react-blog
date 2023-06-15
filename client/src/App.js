@@ -27,26 +27,6 @@ function App() {
                       <Route path="/single" element={<Single/>}/>
                   </Routes>
           </Router>
-          {/*<Router>*/}
-          {/*    <Topbar />*/}
-          {/*    <Switch>*/}
-          {/*        <Route exact path="/">*/}
-          {/*            <Home />*/}
-          {/*        </Route>*/}
-          {/*            <Route path='/Posts' element={<Home/>} />*/}
-          {/*        <Route path="/register">*/}
-          {/*            {currentUser ? <Home /> : <Registor />}*/}
-          {/*        </Route>*/}
-          {/*        <Route path="/login">{currentUser ? <Home /> : <Login />}</Route>*/}
-          {/*        <Route path="/post/:id">*/}
-          {/*            <Single />*/}
-          {/*        </Route>*/}
-          {/*        <Route path="/write">{currentUser ? <Write /> : <Login />}</Route>*/}
-          {/*        <Route path="/settings">*/}
-          {/*            {currentUser ? <Settings /> : <Login />}*/}
-          {/*        </Route>*/}
-          {/*    </Switch>*/}
-          {/*</Router>*/}
 
           {/*<Topbar selectTab={selectTab}/>*/}
 
