@@ -13,6 +13,7 @@ import Post from "./components/post/post";
 function App() {
 
     const currentUser = true;
+    const user = true;
   return (
       <>
           <Router>
@@ -20,7 +21,7 @@ function App() {
                   <Routes>
                       <Route exact path="/" element={<Home/>}/>
                       <Route exact path="/login" element={<Login/>}/>
-                      <Route exact path="/register" element={<Registor/>}/>
+                      <Route exact path="/register" element={user ? <Home/> :<Registor/>}/>
                       <Route exact path="/post" element={<Post/>}/>
                       <Route path="/write" element={<Write/>}/>
                       <Route path="/settings" element={<Settings/>}/>
