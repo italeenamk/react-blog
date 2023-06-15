@@ -24,9 +24,20 @@ const Topbar = () => {
                   </ul>
               </div>
               <div className="top-right">
-                  <Link style={{textDecoration: "none", color:"inherit"}} to="/settings">
-                      <img src="https://assets.entrepreneur.com/content/3x2/2000/20150406145944-dos-donts-taking-perfect-linkedin-profile-picture-selfie-mobile-camera-2.jpeg?crop=1:1" alt="" className="top-img"/>
-                  </Link>
+                  {
+                      user ? (
+                          <Link style={{textDecoration: "none", color:"inherit"}} to="/settings">
+                              <img src="https://assets.entrepreneur.com/content/3x2/2000/20150406145944-dos-donts-taking-perfect-linkedin-profile-picture-selfie-mobile-camera-2.jpeg?crop=1:1" alt="" className="top-img"/>
+                          </Link>
+                      ) : (
+                          <ul className="top-list">
+                              <li className="top-list-item"></li>
+                              <li className="top-list-item"></li>
+                              <Link style={{textDecoration: "none", color:"inherit"}} to="/login">LOGIN </Link>
+                              <Link style={{textDecoration: "none", color:"inherit"}} to="/register"> REGISTER</Link>
+                          </ul>
+                      )
+                  }
                       <i className="top-search-icon fa-solid fa-magnifying-glass"></i>
               </div>
           </div>
