@@ -13,7 +13,7 @@ import Post from "./components/post/post";
 function App() {
 
     const currentUser = true;
-    const user = true;
+    const user = false;
   return (
       <>
           <Router>
@@ -24,7 +24,7 @@ function App() {
                       <Route exact path="/register" element={user ? <Home/> :<Registor/>}/>
                       <Route exact path="/post" element={<Post/>}/>
                       <Route path="/write" element={user ? <Write/> :<Registor/>}/>
-                      <Route path="/settings" element={<Settings/>}/>
+                      <Route path="/settings" element={user ? <Settings/> :<Registor/>}/>
                       <Route path="/post/:postId" element={<Single/>}/>
                   </Routes>
           </Router>

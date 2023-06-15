@@ -2,6 +2,7 @@ import './topbar.css';
 import {Link} from "react-router-dom";
 
 const Topbar = () => {
+    const user = true;
   return(
       <>
           <div className="top">
