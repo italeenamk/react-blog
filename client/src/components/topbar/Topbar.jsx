@@ -2,7 +2,7 @@ import './topbar.css';
 import {Link} from "react-router-dom";
 
 const Topbar = () => {
-    const user = true;
+    const user = false;
   return(
       <>
           <div className="top">
@@ -18,7 +18,9 @@ const Topbar = () => {
                       <li className="top-list-item">ABOUT</li>
                       <li className="top-list-item">CONTACT</li>
                       <li className="top-list-item" ><Link style={{textDecoration: "none", color:"inherit"}} to="/write">WRITE</Link></li>
-                      <li className="top-list-item" ><Link style={{textDecoration: "none", color:"inherit"}} to="/login">LOGOUT</Link></li>
+                      <li className="top-list-item" >
+                          {user && "LOGOUT"}
+                      </li>
                   </ul>
               </div>
               <div className="top-right">
