@@ -20,10 +20,10 @@ function App() {
               <Topbar/>
                   <Routes>
                       <Route exact path="/" element={<Home/>}/>
-                      <Route exact path="/login" element={<Login/>}/>
+                      <Route exact path="/login" element={user ? <Home/> :<Login/>}/>
                       <Route exact path="/register" element={user ? <Home/> :<Registor/>}/>
                       <Route exact path="/post" element={<Post/>}/>
-                      <Route path="/write" element={<Write/>}/>
+                      <Route path="/write" element={user ? <Write/> :<Registor/>}/>
                       <Route path="/settings" element={<Settings/>}/>
                       <Route path="/post/:postId" element={<Single/>}/>
                   </Routes>
