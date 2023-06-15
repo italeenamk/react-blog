@@ -31,10 +31,12 @@ const Topbar = () => {
                           </Link>
                       ) : (
                           <ul className="top-list">
-                              <li className="top-list-item"></li>
-                              <li className="top-list-item"></li>
-                              <Link style={{textDecoration: "none", color:"inherit"}} to="/login">LOGIN </Link>
-                              <Link style={{textDecoration: "none", color:"inherit"}} to="/register"> REGISTER</Link>
+                              <li className="top-list-item">
+                                  <Link style={{textDecoration: "none", color:"inherit"}} to="/login">LOGIN </Link>
+                              </li>
+                              <li className="top-list-item">
+                                  <Link style={{textDecoration: "none", color:"inherit"}} to="/register"> REGISTER</Link>
+                              </li>
                           </ul>
                       )
                   }
