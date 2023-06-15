@@ -24,7 +24,7 @@ function App() {
                       <Route exact path="/post" element={<Post/>}/>
                       <Route path="/write" element={<Write/>}/>
                       <Route path="/settings" element={<Settings/>}/>
-                      <Route path="/single" element={<Single/>}/>
+                      <Route path="/post/:postId" element={<Single/>}/>
                   </Routes>
           </Router>
 

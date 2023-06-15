@@ -48,7 +48,8 @@
     cursor: pointer;
 }
 link {
-    text-decoration: none !important;
+    text-decoration: none;
+    color: inherit;
 }
 .top-search-icon {
     color: #666666;
