@@ -4,7 +4,7 @@ import {useLocation} from "react-router-dom";
 
 const Singlepost = () => {
     const location = useLocation()
-    console.log(location.pathname.split("/")[2])
+    const path = location.pathname.split("/")[2];
   return(
       <>
           <div className="single-post">
