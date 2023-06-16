@@ -1,10 +1,15 @@
 import './singlepost.css';
 import {useLocation} from "react-router-dom";
+import {useEffect} from "react";
 
 
 const Singlepost = () => {
     const location = useLocation()
     const path = location.pathname.split("/")[2];
+
+    useEffect(()=>{
+        const getPost = async ()=>{}
+    }, [path])
   return(
       <>
           <div className="single-post">
