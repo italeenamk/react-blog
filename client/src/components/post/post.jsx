@@ -15,7 +15,6 @@ const Post = ({ post }) => {
                           <span className="post-categorie">{c.name}</span>
                       ))}
                   </div>
-                  <p>gggg</p>
                   <span className="post-title">{post.title}</span>
                   <hr/>
                   <span className="post-date">{new Date (post.createdAt).toDateString()}</span>
