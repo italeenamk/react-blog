@@ -32,27 +32,7 @@ const Singlepost = () => {
                       <span className="single-post-author">Author: <b> {post.username}</b></span>
                       <span className="single-post-date">{new Date(post.createdAt).toDateString()}</span>
                   </div>
-                  <p className="single-post-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A architecto
-                      aut deserunt dolorum earum eum exercitationem harum incidunt provident
-                      sed.
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. A architecto
-                      aut deserunt dolorum earum eum exercitationem harum incidunt provident
-                      sed.
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. A architecto
-                      aut deserunt dolorum earum eum exercitationem harum incidunt provident
-                      sed.
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. A architecto
-                      aut deserunt dolorum earum eum exercitationem harum incidunt provident
-                      sed.
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. A architecto
-                      aut deserunt dolorum earum eum exercitationem harum incidunt provident
-                      sed.
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. A architecto
-                      aut deserunt dolorum earum eum exercitationem harum incidunt provident
-                      sed.
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. A architecto
-                      aut deserunt dolorum earum eum exercitationem harum incidunt provident
-                      sed.
+                  <p className="single-post-description">{post.description}
                   </p>
               </div>
           </div>
