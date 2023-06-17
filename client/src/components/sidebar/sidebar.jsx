@@ -8,7 +8,7 @@ const Sidebar = () => {
 
     useEffect(()=>{
         const getCats = async () =>{
-            const res = await axios.get("/categories");
+            const res = await axios.get("http://localhost:5001/api/categories");
             setCats(res.data);
         };
         getCats()
@@ -26,7 +26,7 @@ const Sidebar = () => {
                   <span className="sidebar-title">CATEGORIES</span>
                   <ul className="sidebar-list">
                       {cats.map((c)=>(
-                          <li className="sidebar-list-item">Life</li>
+                          <li className="sidebar-list-item">{c.name}</li>
                       ))}
                   </ul>
               </div>
