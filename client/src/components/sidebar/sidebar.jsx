@@ -4,7 +4,7 @@ import axios from "axios";
 
 
 const Sidebar = () => {
-    const [cat, setCats] = useState([]);
+    const [cats, setCats] = useState([]);
 
     useEffect(()=>{
         const getCats = async () =>{
@@ -25,7 +25,9 @@ const Sidebar = () => {
               <div className="sidebar-items">
                   <span className="sidebar-title">CATEGORIES</span>
                   <ul className="sidebar-list">
-                      <li className="sidebar-list-item">Life</li>
+                      {cats.map((c)=>(
+                          <li className="sidebar-list-item">Life</li>
+                      ))}
                   </ul>
               </div>
               <div className="sidebar-items">
