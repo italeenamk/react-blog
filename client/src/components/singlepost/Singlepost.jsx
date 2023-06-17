@@ -30,7 +30,7 @@ const Singlepost = () => {
                   </h1>
                   <div className="single-post-info">
                       <span className="single-post-author">Author: <b> {post.username}</b></span>
-                      <span className="single-post-date">1 hour ago</span>
+                      <span className="single-post-date">{new Date(post.createdAt).toDateString()}</span>
                   </div>
                   <p className="single-post-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A architecto
                       aut deserunt dolorum earum eum exercitationem harum incidunt provident
