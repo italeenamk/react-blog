@@ -1,7 +1,9 @@
 import './sidebar.css';
+import {useState} from "react";
 
 
 const Sidebar = () => {
+    const [cat, setCats] = useState([]);
   return(
       <>
           <div className="sidebar">
@@ -15,11 +17,6 @@ const Sidebar = () => {
                   <span className="sidebar-title">CATEGORIES</span>
                   <ul className="sidebar-list">
                       <li className="sidebar-list-item">Life</li>
-                      <li className="sidebar-list-item">Music</li>
-                      <li className="sidebar-list-item">Style</li>
-                      <li className="sidebar-list-item">Sport</li>
-                      <li className="sidebar-list-item">Tech</li>
-                      <li className="sidebar-list-item">Cinema</li>
                   </ul>
               </div>
               <div className="sidebar-items">
