@@ -8,7 +8,7 @@ import {useLocation} from "react-router-dom";
 
 const Home = () => {
     const [posts, setPosts] = useState([]);
-    const location = useLocation()
+    const {search} = useLocation()
 
     console.log(location);
 
