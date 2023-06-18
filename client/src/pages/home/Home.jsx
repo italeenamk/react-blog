@@ -13,7 +13,7 @@ const Home = () => {
     console.log(location);
 
     const fetchPosts = async () => {
-        const res = await axios.get("http://localhost:5001/api/posts", {
+        const res = await axios.get("http://localhost:5001/api/posts" + search, {
             'Content-Type': 'application/json'
         })
         setPosts(res.data)
@@ -22,7 +22,7 @@ const Home = () => {
     useEffect(()=>{
 
         fetchPosts();
-    },[])
+    },[search])
   return(
       <>
           <Header/>
