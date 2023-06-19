@@ -18,8 +18,9 @@ const Registor = () => {
          email,
          password,
       });
+      res.data && window.location.replace("http://localhost:5001/api/auth/login")
       }catch (err){
-      console.log(err)
+      setError(true);
       }
     };
   return(
