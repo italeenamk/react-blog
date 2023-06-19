@@ -1,6 +1,7 @@
 import './registor.css';
 import {Link} from "react-router-dom";
 import {useState} from "react";
+import axios from "axios";
 
 
 const Registor = () => {
@@ -8,8 +9,13 @@ const Registor = () => {
     const [email, setEmail] = useState("")
     const [password, setPassword] = useState("")
 
-    const handelsubmit=(e)=>{
+    const handelsubmit = async (e) =>{
       e.preventDefault();
+      const res = axios("/auth", {
+         username,
+         email,
+         password,
+      });
     };
   return(
       <>
