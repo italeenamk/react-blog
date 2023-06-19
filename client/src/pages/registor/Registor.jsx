@@ -11,7 +11,7 @@ const Registor = () => {
       <>
           <div className="register">
               <span className="registerTitle">Register</span>
-              <form className="registerForm">
+              <form className="registerForm" onSubmit={handelsubmit}>
                   <label>Username</label>
                   <input className="registerInput" type="text" placeholder="Enter your username..."
                   onChange={e=>setUsername(e.target.value)}
