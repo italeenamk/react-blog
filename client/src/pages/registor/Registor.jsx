@@ -17,9 +17,13 @@ const Registor = () => {
                   onChange={e=>setUsername(e.target.value)}
                   />
                   <label>Email</label>
-                  <input className="registerInput" type="text" placeholder="Enter your email..." />
+                  <input className="registerInput" type="text" placeholder="Enter your email..."
+                  onChange={e=>setEmail(e.target.value)}
+                  />
                   <label>Password</label>
-                  <input className="registerInput" type="password" placeholder="Enter your password..." />
+                  <input className="registerInput" type="password" placeholder="Enter your password..."
+                  onChange={e=>setPassword(e.target.value)}
+                  />
                   <button className="registerButton">Register</button>
               </form>
               <button className="registerLoginButton"><Link style={{textDecoration: "none", color:"inherit"}} to="/login">Login</Link></button>
