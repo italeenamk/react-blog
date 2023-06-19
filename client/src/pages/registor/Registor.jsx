@@ -24,7 +24,7 @@ const Registor = () => {
                   <input className="registerInput" type="password" placeholder="Enter your password..."
                   onChange={e=>setPassword(e.target.value)}
                   />
-                  <button className="registerButton">Register</button>
+                  <button className="registerButton" type="submit">Register</button>
               </form>
               <button className="registerLoginButton"><Link style={{textDecoration: "none", color:"inherit"}} to="/login">Login</Link></button>
           </div>
