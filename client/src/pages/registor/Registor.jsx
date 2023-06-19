@@ -13,7 +13,9 @@ const Registor = () => {
               <span className="registerTitle">Register</span>
               <form className="registerForm">
                   <label>Username</label>
-                  <input className="registerInput" type="text" placeholder="Enter your username..." />
+                  <input className="registerInput" type="text" placeholder="Enter your username..."
+                  onChange={e=>setUsername(e.target.value)}
+                  />
                   <label>Email</label>
                   <input className="registerInput" type="text" placeholder="Enter your email..." />
                   <label>Password</label>
