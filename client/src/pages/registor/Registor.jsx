@@ -12,6 +12,7 @@ const Registor = () => {
 
     const handelsubmit = async (e) =>{
       e.preventDefault();
+        setError(false);
       try{
       const res = await axios.post("http://localhost:5001/api/auth/register", {
          username,
@@ -43,6 +44,7 @@ const Registor = () => {
                   <button className="registerButton" type="submit">Register</button>
               </form>
               <button className="registerLoginButton"><Link style={{textDecoration: "none", color:"inherit"}} to="/login">Login</Link></button>
+              {error && <span style={{display:"block", color:"red", margin:"10px 0", fontSize:"14px"}}>Something went wrong!</span>}
           </div>
       </>
   )
