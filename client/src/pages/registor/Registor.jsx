@@ -7,6 +7,10 @@ const Registor = () => {
     const [username, setUsername] = useState("")
     const [email, setEmail] = useState("")
     const [password, setPassword] = useState("")
+
+    const handelsubmit=(e)=>{
+      e.preventDefault();
+    };
   return(
       <>
           <div className="register">
