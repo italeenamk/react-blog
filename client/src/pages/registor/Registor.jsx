@@ -1,8 +1,10 @@
 import './registor.css';
 import {Link} from "react-router-dom";
+import {useState} from "react";
 
 
 const Registor = () => {
+    const [username, setUsername] = useState("")
   return(
       <>
           <div className="register">
