@@ -11,12 +11,15 @@ const Registor = () => {
 
     const handelsubmit = async (e) =>{
       e.preventDefault();
+      try{
       const res = await axios.post("http://localhost:5001/api/auth/register", {
          username,
          email,
          password,
       });
-      console.log(res)
+      }catch (err){
+      console.log(err)
+      }
     };
   return(
       <>
