@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28085489-c3af-4785-b8f4-b089711ab5b5" name="Changes" comment="" />
+    <list default="true" id="28085489-c3af-4785-b8f4-b089711ab5b5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/client/src/context/Context.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,6 +89,7 @@
       <workItem from="1687015570012" duration="4757000" />
       <workItem from="1687091128472" duration="4531000" />
       <workItem from="1687183503475" duration="4651000" />
+      <workItem from="1687269961560" duration="373000" />
     </task>
     <servers />
   </component>
