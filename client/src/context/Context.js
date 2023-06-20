@@ -8,4 +8,4 @@ const INITIAL_STATE = {
 
 export const Context = createContext(INITIAL_STATE);
 
-export const ContextProvider = ({children}) =>{}
+export const ContextProvider = ({children}) => {}
