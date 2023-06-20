@@ -3,7 +3,22 @@ const Reducer = (state, action)=>{
         case "LOGIN START":
             return{
                 user: null,
-                isFetching: true
-            }
+                isFetching: true,
+                error: false,
+            };
+        case "LOGIN START":
+            return{
+                user: null,
+                isFetching: true,
+                error: false,
+            };
+        case "LOGIN START":
+            return{
+                user: null,
+                isFetching: true,
+                error: false,
+            };
+        default:
+            return state;
     }
 }
