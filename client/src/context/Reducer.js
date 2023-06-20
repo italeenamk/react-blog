@@ -6,17 +6,17 @@ const Reducer = (state, action)=>{
                 isFetching: true,
                 error: false,
             };
-        case "LOGIN START":
+        case "LOGIN_SUCCESS":
             return{
-                user: null,
-                isFetching: true,
+                user: action.payload,
+                isFetching: false,
                 error: false,
             };
-        case "LOGIN START":
+        case "LOGIN_FAILURE":
             return{
                 user: null,
-                isFetching: true,
-                error: false,
+                isFetching: false,
+                error: true,
             };
         default:
             return state;
