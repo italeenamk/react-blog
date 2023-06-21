@@ -11,19 +11,20 @@ const Login = () => {
     const { user,dispatch, isFecthing } = useContext(Context)
 
     const handelsubmit = async (e) =>{
+        console.log("ere");
       e.preventDefault();
       dispatch({type:"LOGIN_START"});
       try{
-          const res = await axios.post("/auth/login", {
-              username: userRef.current.valueOf(),
-              password: passwordRef.current.valueOf(),
+          const res = await axios.post("http://localhost:5001/api/auth/login", {
+              username: userRef.current.value,
+              password: passwordRef.current.value,
           })
           dispatch({type:"LOGIN_SUCCESS", payload: res.data});
       }catch (err){
           dispatch({type:"LOGIN_FAILURE"});
-      }
+      } console.log(user);
     };
-    console.log(user);
+
   return(
       <>
           <div className="login">
