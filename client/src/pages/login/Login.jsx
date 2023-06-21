@@ -16,7 +16,7 @@ const Login = () => {
               <span className="loginTitle">Login</span>
               <form className="loginForm" onSubmit={handelsubmit}>
                   <label>Username</label>
-                  <input className="loginInput" type="text" placeholder="Enter your username..." />
+                  <input className="loginInput" type="text" placeholder="Enter your username..." ref={userRef}/>
                   <label>Password</label>
                   <input className="loginInput" type="password" placeholder="Enter your password..." />
                   <button className="loginButton" type="submit">Login</button>
