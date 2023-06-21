@@ -1,11 +1,13 @@
 import './login.css';
 import {Link} from "react-router-dom";
-import {useRef} from "react";
+import {useContext, useRef} from "react";
+import {Context} from "../../context/Context";
 
 
 const Login = () => {
     const userRef = useRef();
     const passwordRef = useRef();
+    const { dispatch, isFecthing } = useContext(Context)
 
     const handelsubmit=(e)=>{
       e.preventDefault();
