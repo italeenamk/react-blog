@@ -14,20 +14,21 @@ const Login = () => {
       e.preventDefault();
       dispatch({type:"LOGIN_START"});
       try{
-          const res = await axios.post("/api/auth/login", {
-              username: userRef.current.value(),
-              password: passwordRef.current.value(),
+          const res = await axios.post("/auth/login", {
+              username: userRef.current.valueOf(),
+              password: passwordRef.current.valueOf(),
           })
           dispatch({type:"LOGIN_SUCCESS", payload: res.data});
       }catch (err){
           dispatch({type:"LOGIN_FAILURE"});
       }
     };
+    console.log(user);
   return(
       <>
           <div className="login">
               <span className="loginTitle">Login</span>
-              <form className="loginForm" onSubmit={handelsubmit}>
+              <form className="loginForm" onSubmit={ handelsubmit }>
                   <label>Username</label>
                   <input className="loginInput" type="text" placeholder="Enter your username..." ref={userRef}/>
                   <label>Password</label>
