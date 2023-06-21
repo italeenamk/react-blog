@@ -2,6 +2,7 @@ import './login.css';
 import {Link} from "react-router-dom";
 import {useContext, useRef} from "react";
 import {Context} from "../../context/Context";
+import axios from "axios";
 
 
 const Login = () => {
@@ -13,7 +14,10 @@ const Login = () => {
       e.preventDefault();
       dispatch({type:"LOGIN_START"});
       try{
-
+          const res = await axios.post("/api/auth/login", {
+              username: userRef.current.value(),
+              password: passwordRef.current.value(),
+          })
       }catch (err){}
     };
   return(
