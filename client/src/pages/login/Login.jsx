@@ -8,7 +8,7 @@ import axios from "axios";
 const Login = () => {
     const userRef = useRef();
     const passwordRef = useRef();
-    const { dispatch, isFecthing } = useContext(Context)
+    const { user,dispatch, isFecthing } = useContext(Context)
 
     const handelsubmit = async (e) =>{
       e.preventDefault();
@@ -18,7 +18,10 @@ const Login = () => {
               username: userRef.current.value(),
               password: passwordRef.current.value(),
           })
-      }catch (err){}
+          dispatch({type:"LOGIN_SUCCESS", payload: res.data});
+      }catch (err){
+          dispatch({type:"LOGIN_FAILURE"});
+      }
     };
   return(
       <>
