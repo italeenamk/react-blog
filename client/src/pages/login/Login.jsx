@@ -22,9 +22,9 @@ const Login = () => {
           dispatch({type:"LOGIN_SUCCESS", payload: res.data});
       }catch (err){
           dispatch({type:"LOGIN_FAILURE"});
-      } console.log(user);
+      }
     };
-
+    console.log(user);
   return(
       <>
           <div className="login">
