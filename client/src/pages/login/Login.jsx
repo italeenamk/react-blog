@@ -5,6 +5,7 @@ import {Context} from "../../context/Context";
 import axios from "axios";
 
 
+userRef.current.value = undefined;
 const Login = () => {
     const userRef = useRef();
     const passwordRef = useRef();
