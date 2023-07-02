@@ -24,7 +24,7 @@ const Login = () => {
           dispatch({type:"LOGIN_FAILURE"});
       }
     };
-    console.log(user);
+    console.log("check");
   return(
       <>
           <div className="login">
