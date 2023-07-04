@@ -10,10 +10,6 @@ const Login = () => {
     const passwordRef = useRef();
     const { user,dispatch, isFetching } = useContext(Context);
 
-    useEffect(()=>{
-        localStorage.setItem("user", JSON.stringify(state.user))
-    }, [state.user])
-
     const handelsubmit = async (e) =>{
       e.preventDefault();
       dispatch({type:"LOGIN_START"});
