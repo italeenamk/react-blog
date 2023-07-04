@@ -2,7 +2,7 @@ import {createContext, useEffect, useReducer} from "react";
 import Reducer from "./Reducer";
 
 const INITIAL_STATE = {
-    user: null,
+    user: JSON.parse,
     isFetching: false,
     error: false,
 };
