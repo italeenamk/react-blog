@@ -49,6 +49,10 @@
     border-radius: 10px;
     text-align: center;
 }
+.loginButton:disabled{
+    cursor: not-allowed !important;
+    background-color: coral !important;
+}
 
 .loginRegisterButton {
     position: absolute;
