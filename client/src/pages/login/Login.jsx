@@ -1,6 +1,6 @@
 import './login.css';
 import {Link} from "react-router-dom";
-import {useContext, useRef} from "react";
+import {useContext, useEffect, useRef} from "react";
 import {Context} from "../../context/Context";
 import axios from "axios";
 
@@ -8,7 +8,11 @@ import axios from "axios";
 const Login = () => {
     const userRef = useRef();
     const passwordRef = useRef();
-    const { user,dispatch, isFetching } = useContext(Context)
+    const { user,dispatch, isFetching } = useContext(Context);
+
+    useEffect(()=>{
+
+    }, [state.user])
 
     const handelsubmit = async (e) =>{
       e.preventDefault();
