@@ -11,7 +11,6 @@ const Login = () => {
     const { user,dispatch, isFecthing } = useContext(Context)
 
     const handelsubmit = async (e) =>{
-        console.log("err");
       e.preventDefault();
       dispatch({type:"LOGIN_START"});
       try{
@@ -19,13 +18,12 @@ const Login = () => {
               username: userRef.current.value,
               password: passwordRef.current.value,
           });
-          console.log("chexk")
           dispatch({type:"LOGIN_SUCCESS", payload: res.data});
       }catch (err){
           dispatch({type:"LOGIN_FAILURE"});
       }
     };
-    console.log(user);
+    console.log(isFecthing);
   return(
       <>
           <div className="login">
