@@ -23,7 +23,7 @@ const Login = () => {
           dispatch({type:"LOGIN_FAILURE"});
       }
     };
-    console.log(isFetching);
+    console.log(user);
   return(
       <>
           <div className="login">
