@@ -50,8 +50,8 @@
     text-align: center;
 }
 .loginButton:disabled{
-    cursor: not-allowed !important;
-    background-color: coral !important;
+    cursor: not-allowed;
+    background-color: coral;
 }
 
 .loginRegisterButton {
