@@ -11,7 +11,7 @@ const Login = () => {
     const { user,dispatch, isFetching } = useContext(Context);
 
     useEffect(()=>{
-
+        localStorage.setItem("user", JSON.stringify(state.user))
     }, [state.user])
 
     const handelsubmit = async (e) =>{
