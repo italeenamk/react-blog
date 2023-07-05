@@ -8,7 +8,7 @@ import axios from "axios";
 const Login = () => {
     const userRef = useRef();
     const passwordRef = useRef();
-    const { dispatch, isFetching } = useContext(Context);
+    const { user, dispatch, isFetching } = useContext(Context);
 
     const handelsubmit = async (e) =>{
       e.preventDefault();
@@ -22,6 +22,7 @@ const Login = () => {
       }catch (err){
           dispatch({type:"LOGIN_FAILURE"});
       }
+      console.log(user);
     };
   return(
       <>
